@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<form action="/admin/student" method="POST">
+    <nav class="navbar ">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1 heading">Drive Me: Attendance</span>
+      </div>
+    </nav>
+
+
+
+
+    <div class="card">
+      <div class="card1">
+      <div class="card-body">
+        <h5 class="card-title">Attendence</h5>
+      <div class="email-entry">
+        <label for="mailid">Email</label>
+        <input type="email" name="mail" id="mailid" placeholder="Enter student's email">
+        </div>
+        <div class="attendence-select">
+          <label class="form-check-label" for="maleGender">present</label>
+          <input class="Present form-check-input" type="radio" name="attendence" id=""
+            value="present" />
+          <label class="form-check-label" for="maleGender">absent</label>
+          <input class="Absent form-check-input" type="radio" name="attendence" id=""
+        value="absent" />
+        </div>
+      
+      <div class="submit-btn">
+        <button type="submit" class="sub btn btn-primary">Submit</button>
+
+      </div>
+        
+      </div>
+      </div>
+    </div>
+</form>
+</body>
+</html>
